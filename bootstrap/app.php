@@ -41,6 +41,10 @@ $app->singleton(
     App\Exceptions\Handler::class
 );
 
+/* dingo api  */
+// $app->register('Dingo\Api\Provider\LumenServiceProvider');
+// $api = $app['api.router'];
+/* ----X dingo api -----X  */
 /*
 |--------------------------------------------------------------------------
 | Return The Application

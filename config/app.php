@@ -136,6 +136,10 @@ return [
     */
 
     'providers' => [
+        /*
+         Dingo api
+         */
+        Dingo\Api\Provider\LaravelServiceProvider::class,
 
         /*
          * Laravel Framework Service Providers...
