@@ -18,6 +18,8 @@ use Illuminate\Http\Request;
 use DB;
 use JWTAuth;
 
+use Dingo\Api\Exception\ValidationHttpException;
+use Illuminate\Support\Facades\Validator;
 
 class RegisterController extends Controller
 {
@@ -42,47 +44,46 @@ class RegisterController extends Controller
     }
 
     /* REGISTRATION */
-
     public function register(Request $request)
     {
-    
+        $validator = Validator::make($request->all(), [
+            'email'     => 'required',
+            'password'  => 'required',
+            'dob'       => 'date_format:"Y-m-d"|required',
+            'gender'    => 'required',
+            'firstname' => 'required',
+            'lastname'  => 'required',
+            ]);
+        if ($validator->fails()) {
+            throw new ValidationHttpException($validator->errors()->all());
+        }
+
         DB::beginTransaction();
+        $userObj = User::create([
+            'email'      => $request->get('email'),
+            'password'   => bcrypt($request->get('password')),
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+            'statusid'   => 2,
+            ]);
+        $user_id = $userObj->id;
+        $userRoleObj = UserRole::create([
+            'userid' => $user_id,
+            'roleid' => 4
+            ]);
+        $userProfile = UserProfile::create([
+            'DOB'        => $request->get('dob'),
+            'gender'     => $request->get('gender'),
+            'first_name' => $request->get('firstname'),
+            'last_name'  => $request->get('lastname'),
+            'userid'     => $user_id
+            ]);
         try {
-            $userObj = User::create([
-                'email' => $request->get('email'),
-                'password' => bcrypt($request->get('password')),
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-                'statusid' => 2,
-                ]);
-
-            $user_id = $userObj->id;
-
-            $userRoleObj = UserRole::create([
-                'userid' => $user_id,
-                'roleid' => 4
-                ]);
-
-            $userProfile = UserProfile::create([
-                'DOB' => $request->get('dob'),
-                'gender' => $request->get('gender'),
-                'first_name' => $request->get('firstname'),
-                'last_name' => $request->get('lastname'),
-                'userid' => $user_id
-                ]);
-
             DB::commit();
-
-
-            if ($userObj) {
-                return response()->json(['message' => 'You are Register to CY', 'data' => $userObj]);
-            } else {
-                return response()->json(['message' => 'Something Went Wrong']);
-            }
-        } catch (\PDOException $e) {
-
+            return apiResponse('success','Welcome to Creative Youth.',$userObj);
+        } catch (Exception $e) {
             DB::rollback();
-            return response()->json(['message' => 'Something Went Wrong, Error: ' . $e->getMessage()]);
+            return apiResponse('failed','Something Went Wrong, Error: ' . $e->getMessage() );
         }
     }
 

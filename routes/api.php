@@ -5,10 +5,16 @@ use Illuminate\Http\Request;
 $api = app('Dingo\Api\Routing\Router');
 
 
-$api->version('v1', function ($api) {
-    $api->get('test',function(){
-        echo "test";
-    });
+$api->version('v1',['namespace' => "App\Http\Controllers"], function ($api) {
+	
+	/*----routes which donot require authentication/ middleware action----------*/
+	$api->post('register', 'RegisterController@register');
+
+	/*---routes which require certain middleware action / authentications---------*/
+	$api->group(['middleware' => 'foo'], function ($api) {
+
+	});
+	
 });
 
 /*
