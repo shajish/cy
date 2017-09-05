@@ -21,7 +21,7 @@ use JWTAuth;
 use Dingo\Api\Exception\ValidationHttpException;
 use Illuminate\Support\Facades\Validator;
 
-class RegisterController extends Controller
+class UserController extends Controller
 {
     public function userlist(Request $request)
     {
@@ -112,14 +112,10 @@ class RegisterController extends Controller
      }*/
 
      /* VIEW THROUGH ID */
-
-     public function view($id)
-     {
+     public function view($id){
         try {
             $result = User::find($id);
-
             return response()->json($result);
-
         } catch (\Exception $e) {
             print_r($e);
         }

@@ -6,7 +6,7 @@ use App\Models\UserRole;
 use Closure;
 use JWTAuth;
 
-class Role
+class IsAdmin
 {
     /**
      * Handle an incoming request.
@@ -22,7 +22,6 @@ class Role
         $role = UserRole::where('userid', $admin->id)
             ->take(1)
             ->get();
-       /* print($role);die();*/
         if ($role[0]->roleid == 1) {
             return $next($request);
         }

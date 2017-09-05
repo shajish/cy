@@ -6,7 +6,7 @@ use App\Models\UserRole;
 use Closure;
 use JWTAuth;
 
-class user
+class IsUser
 {
     /**
      * Handle an incoming request.
