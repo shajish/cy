@@ -26,7 +26,7 @@ class CommunityController extends Controller
                     'statusid' => 1//$request->get('roleid);
                     ]);
 
-            if ($changeActiveStatus) {
+            if ($changeRole) {
                 return response()->json(['message' => 'You are Activated and role changed']);
             } else {
                 return response()->json(['message' => 'Something Went Wrong']);
@@ -80,7 +80,8 @@ public function view($id)
 {
     try{
         $result = Community::find($id);
-        return response()->json($result);
+        return apiResponse('success','Detail of Community',$result);
+
     }
     catch(\Exception $e)
     {

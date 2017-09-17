@@ -48,9 +48,9 @@
 
                                         <!-- LOGIN -->
                                         <div id="log-in" class="active">
-                                            <form>
-                                                <input type="email" placeholder="Email Address">
-                                                <input type="password" placeholder="Password">
+                                            <form @submit.prevent="checkUser()">
+                                                <input type="email" v-model="userDetail.username" placeholder="Email Address">
+                                                <input type="password" v-model="userDetail.password" placeholder="Password">
                                                 <button type="submit">Login</button>
                                                 <div class="forget">Forgot your password? <a href="#.">Click Here</a></div>
                                             </form>
@@ -226,6 +226,39 @@
     export default {
         mounted() {
             console.log('Component mounted.')
+        },
+        data(){
+            return {
+                userDetail: {
+                    username: '',
+                    password: '',
+                },
+                userData: []
+            }
+        },
+        methods:{
+          checkUser: function(){
+              var users =  this;
+              axios.post('api/auth/login', {
+                  email: this.userDetail.username,
+                  password: this.userDetail.password
+              }).then((response) => {
+//                  console.log(response.data.token);
+
+                  localStorage.setItem('token', response.data.token);
+//                  console.log(localStorage.getItem('token'));
+                 users.userData =  this.parseJWT(localStorage.getItem('token'));
+
+                 users.$router.push('/userprofile');
+              })
+          },
+            parseJWT: function(userToken){
+                var splitToken = userToken.split('.')[1];
+                var tokenReplace = splitToken.replace('-', '+').replace('_', '/');
+
+                return JSON.parse(window.atob(tokenReplace));
+            }
+
         }
     }
 </script>

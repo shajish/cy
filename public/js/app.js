@@ -3394,7 +3394,7 @@ var Component = __webpack_require__(1)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "C:\\xampp\\htdocs\\CreativeYouth\\resources\\assets\\js\\components\\client\\pages\\home.vue"
+Component.options.__file = "/var/www/html/cy/resources/assets/js/components/client/pages/home.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] home.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -3405,9 +3405,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-1f344f72", Component.options)
+    hotAPI.createRecord("data-v-efb2c958", Component.options)
   } else {
-    hotAPI.reload("data-v-1f344f72", Component.options)
+    hotAPI.reload("data-v-efb2c958", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -3434,7 +3434,7 @@ var Component = __webpack_require__(1)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "C:\\xampp\\htdocs\\CreativeYouth\\resources\\assets\\js\\components\\client\\pages\\blog.vue"
+Component.options.__file = "/var/www/html/cy/resources/assets/js/components/client/pages/blog.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] blog.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -3445,9 +3445,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-14c070b5", Component.options)
+    hotAPI.createRecord("data-v-7db2bc97", Component.options)
   } else {
-    hotAPI.reload("data-v-14c070b5", Component.options)
+    hotAPI.reload("data-v-7db2bc97", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -3474,7 +3474,7 @@ var Component = __webpack_require__(1)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "C:\\xampp\\htdocs\\CreativeYouth\\resources\\assets\\js\\components\\client\\pages\\event.vue"
+Component.options.__file = "/var/www/html/cy/resources/assets/js/components/client/pages/event.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] event.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -3485,9 +3485,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-4d940817", Component.options)
+    hotAPI.createRecord("data-v-02eb3875", Component.options)
   } else {
-    hotAPI.reload("data-v-4d940817", Component.options)
+    hotAPI.reload("data-v-02eb3875", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -3514,7 +3514,7 @@ var Component = __webpack_require__(1)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "C:\\xampp\\htdocs\\CreativeYouth\\resources\\assets\\js\\components\\client\\pages\\professionals.vue"
+Component.options.__file = "/var/www/html/cy/resources/assets/js/components/client/pages/professionals.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] professionals.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -3525,9 +3525,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-72506ea9", Component.options)
+    hotAPI.createRecord("data-v-26986107", Component.options)
   } else {
-    hotAPI.reload("data-v-72506ea9", Component.options)
+    hotAPI.reload("data-v-26986107", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -3554,7 +3554,7 @@ var Component = __webpack_require__(1)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "C:\\xampp\\htdocs\\CreativeYouth\\resources\\assets\\js\\components\\client\\pages\\news.vue"
+Component.options.__file = "/var/www/html/cy/resources/assets/js/components/client/pages/news.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] news.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -3565,9 +3565,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-e15a6934", Component.options)
+    hotAPI.createRecord("data-v-0f75d170", Component.options)
   } else {
-    hotAPI.reload("data-v-e15a6934", Component.options)
+    hotAPI.reload("data-v-0f75d170", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -3594,7 +3594,7 @@ var Component = __webpack_require__(1)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "C:\\xampp\\htdocs\\CreativeYouth\\resources\\assets\\js\\components\\client\\pages\\userprofile.vue"
+Component.options.__file = "/var/www/html/cy/resources/assets/js/components/client/pages/userprofile.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] userprofile.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -3605,9 +3605,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-552bd18a", Component.options)
+    hotAPI.createRecord("data-v-f5b1edce", Component.options)
   } else {
-    hotAPI.reload("data-v-552bd18a", Component.options)
+    hotAPI.reload("data-v-f5b1edce", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -34570,7 +34570,7 @@ module.exports = function spread(callback) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(global) {/*!
- * Vue.js v2.4.2
+ * Vue.js v2.4.4
  * (c) 2014-2017 Evan You
  * Released under the MIT License.
  */
@@ -34735,12 +34735,9 @@ var capitalize = cached(function (str) {
 /**
  * Hyphenate a camelCase string.
  */
-var hyphenateRE = /([^-])([A-Z])/g;
+var hyphenateRE = /\B([A-Z])/g;
 var hyphenate = cached(function (str) {
-  return str
-    .replace(hyphenateRE, '$1-$2')
-    .replace(hyphenateRE, '$1-$2')
-    .toLowerCase()
+  return str.replace(hyphenateRE, '-$1').toLowerCase()
 });
 
 /**
@@ -35159,7 +35156,7 @@ var isAndroid = UA && UA.indexOf('android') > 0;
 var isIOS = UA && /iphone|ipad|ipod|ios/.test(UA);
 var isChrome = UA && /chrome\/\d+/.test(UA) && !isEdge;
 
-// Firefix has a "watch" function on Object.prototype...
+// Firefox has a "watch" function on Object.prototype...
 var nativeWatch = ({}).watch;
 
 var supportsPassive = false;
@@ -35241,13 +35238,13 @@ var nextTick = (function () {
       // "force" the microtask queue to be flushed by adding an empty timer.
       if (isIOS) { setTimeout(noop); }
     };
-  } else if (typeof MutationObserver !== 'undefined' && (
+  } else if (!isIE && typeof MutationObserver !== 'undefined' && (
     isNative(MutationObserver) ||
     // PhantomJS and iOS 7.x
     MutationObserver.toString() === '[object MutationObserverConstructor]'
   )) {
     // use MutationObserver where native Promise is not available,
-    // e.g. PhantomJS IE11, iOS7, Android 4.4
+    // e.g. PhantomJS, iOS7, Android 4.4
     var counter = 1;
     var observer = new MutationObserver(nextTickHandler);
     var textNode = document.createTextNode(String(counter));
@@ -35547,9 +35544,9 @@ function defineReactive$$1 (
         dep.depend();
         if (childOb) {
           childOb.dep.depend();
-        }
-        if (Array.isArray(value)) {
-          dependArray(value);
+          if (Array.isArray(value)) {
+            dependArray(value);
+          }
         }
       }
       return value
@@ -35726,7 +35723,7 @@ function mergeDataOrFn (
         : childVal;
       var defaultData = typeof parentVal === 'function'
         ? parentVal.call(vm)
-        : undefined;
+        : parentVal;
       if (instanceData) {
         return mergeData(instanceData, defaultData)
       } else {
@@ -36129,7 +36126,12 @@ function assertType (value, type) {
   var valid;
   var expectedType = getType(type);
   if (simpleCheckRE.test(expectedType)) {
-    valid = typeof value === expectedType.toLowerCase();
+    var t = typeof value;
+    valid = t === expectedType.toLowerCase();
+    // for primitive wrapper objects
+    if (!valid && t === 'object') {
+      valid = value instanceof type;
+    }
   } else if (expectedType === 'Object') {
     valid = isPlainObject(value);
   } else if (expectedType === 'Array') {
@@ -36327,7 +36329,7 @@ function createTextVNode (val) {
 // used for static nodes and slot nodes because they may be reused across
 // multiple renders, cloning them avoids errors when DOM manipulations rely
 // on their elm reference.
-function cloneVNode (vnode) {
+function cloneVNode (vnode, deep) {
   var cloned = new VNode(
     vnode.tag,
     vnode.data,
@@ -36343,14 +36345,17 @@ function cloneVNode (vnode) {
   cloned.key = vnode.key;
   cloned.isComment = vnode.isComment;
   cloned.isCloned = true;
+  if (deep && vnode.children) {
+    cloned.children = cloneVNodes(vnode.children);
+  }
   return cloned
 }
 
-function cloneVNodes (vnodes) {
+function cloneVNodes (vnodes, deep) {
   var len = vnodes.length;
   var res = new Array(len);
   for (var i = 0; i < len; i++) {
-    res[i] = cloneVNode(vnodes[i]);
+    res[i] = cloneVNode(vnodes[i], deep);
   }
   return res
 }
@@ -36364,8 +36369,10 @@ var normalizeEvent = cached(function (name) {
   name = once$$1 ? name.slice(1) : name;
   var capture = name.charAt(0) === '!';
   name = capture ? name.slice(1) : name;
+  var plain = !(passive || once$$1 || capture);
   return {
     name: name,
+    plain: plain,
     once: once$$1,
     capture: capture,
     passive: passive
@@ -36391,6 +36398,11 @@ function createFnInvoker (fns) {
   return invoker
 }
 
+// #6552
+function prioritizePlainEvents (a, b) {
+  return a.plain ? -1 : b.plain ? 1 : 0
+}
+
 function updateListeners (
   on,
   oldOn,
@@ -36399,10 +36411,13 @@ function updateListeners (
   vm
 ) {
   var name, cur, old, event;
+  var toAdd = [];
+  var hasModifier = false;
   for (name in on) {
     cur = on[name];
     old = oldOn[name];
     event = normalizeEvent(name);
+    if (!event.plain) { hasModifier = true; }
     if (isUndef(cur)) {
       "development" !== 'production' && warn(
         "Invalid handler for event \"" + (event.name) + "\": got " + String(cur),
@@ -36412,10 +36427,18 @@ function updateListeners (
       if (isUndef(cur.fns)) {
         cur = on[name] = createFnInvoker(cur);
       }
-      add(event.name, cur, event.once, event.capture, event.passive);
+      event.handler = cur;
+      toAdd.push(event);
     } else if (cur !== old) {
       old.fns = cur;
       on[name] = old;
+    }
+  }
+  if (toAdd.length) {
+    if (hasModifier) { toAdd.sort(prioritizePlainEvents); }
+    for (var i = 0; i < toAdd.length; i++) {
+      var event$1 = toAdd[i];
+      add(event$1.name, event$1.handler, event$1.once, event$1.capture, event$1.passive);
     }
   }
   for (name in oldOn) {
@@ -36732,11 +36755,17 @@ function resolveAsyncComponent (
 
 /*  */
 
+function isAsyncPlaceholder (node) {
+  return node.isComment && node.asyncFactory
+}
+
+/*  */
+
 function getFirstComponentChild (children) {
   if (Array.isArray(children)) {
     for (var i = 0; i < children.length; i++) {
       var c = children[i];
-      if (isDef(c) && isDef(c.componentOptions)) {
+      if (isDef(c) && (isDef(c.componentOptions) || isAsyncPlaceholder(c))) {
         return c
       }
     }
@@ -36823,8 +36852,8 @@ function eventsMixin (Vue) {
     }
     // array of events
     if (Array.isArray(event)) {
-      for (var i$1 = 0, l = event.length; i$1 < l; i$1++) {
-        this$1.$off(event[i$1], fn);
+      for (var i = 0, l = event.length; i < l; i++) {
+        this$1.$off(event[i], fn);
       }
       return vm
     }
@@ -36837,14 +36866,16 @@ function eventsMixin (Vue) {
       vm._events[event] = null;
       return vm
     }
-    // specific handler
-    var cb;
-    var i = cbs.length;
-    while (i--) {
-      cb = cbs[i];
-      if (cb === fn || cb.fn === fn) {
-        cbs.splice(i, 1);
-        break
+    if (fn) {
+      // specific handler
+      var cb;
+      var i$1 = cbs.length;
+      while (i$1--) {
+        cb = cbs[i$1];
+        if (cb === fn || cb.fn === fn) {
+          cbs.splice(i$1, 1);
+          break
+        }
       }
     }
     return vm
@@ -36896,10 +36927,15 @@ function resolveSlots (
   var defaultSlot = [];
   for (var i = 0, l = children.length; i < l; i++) {
     var child = children[i];
+    var data = child.data;
+    // remove slot attribute if the node is resolved as a Vue slot node
+    if (data && data.attrs && data.attrs.slot) {
+      delete data.attrs.slot;
+    }
     // named slots should only be respected if the vnode was rendered in the
     // same context.
     if ((child.context === context || child.functionalContext === context) &&
-      child.data && child.data.slot != null
+      data && data.slot != null
     ) {
       var name = child.data.slot;
       var slot = (slots[name] || (slots[name] = []));
@@ -37152,11 +37188,11 @@ function updateChildComponent (
   }
   vm.$options._renderChildren = renderChildren;
 
-  // update $attrs and $listensers hash
+  // update $attrs and $listeners hash
   // these are also reactive so they may trigger child update if the child
   // used them during render
-  vm.$attrs = parentVnode.data && parentVnode.data.attrs;
-  vm.$listeners = listeners;
+  vm.$attrs = (parentVnode.data && parentVnode.data.attrs) || emptyObject;
+  vm.$listeners = listeners || emptyObject;
 
   // update props
   if (propsData && vm.$options.props) {
@@ -37743,7 +37779,7 @@ function initData (vm) {
     if (true) {
       if (methods && hasOwn(methods, key)) {
         warn(
-          ("method \"" + key + "\" has already been defined as a data property."),
+          ("Method \"" + key + "\" has already been defined as a data property."),
           vm
         );
       }
@@ -37776,6 +37812,8 @@ var computedWatcherOptions = { lazy: true };
 function initComputed (vm, computed) {
   "development" !== 'production' && checkOptionType(vm, 'computed');
   var watchers = vm._computedWatchers = Object.create(null);
+  // computed properties are just getters during SSR
+  var isSSR = isServerRendering();
 
   for (var key in computed) {
     var userDef = computed[key];
@@ -37786,8 +37824,16 @@ function initComputed (vm, computed) {
         vm
       );
     }
-    // create internal watcher for the computed property.
-    watchers[key] = new Watcher(vm, getter || noop, noop, computedWatcherOptions);
+
+    if (!isSSR) {
+      // create internal watcher for the computed property.
+      watchers[key] = new Watcher(
+        vm,
+        getter || noop,
+        noop,
+        computedWatcherOptions
+      );
+    }
 
     // component-defined computed properties are already defined on the
     // component prototype. We only need to define computed properties defined
@@ -37804,13 +37850,20 @@ function initComputed (vm, computed) {
   }
 }
 
-function defineComputed (target, key, userDef) {
+function defineComputed (
+  target,
+  key,
+  userDef
+) {
+  var shouldCache = !isServerRendering();
   if (typeof userDef === 'function') {
-    sharedPropertyDefinition.get = createComputedGetter(key);
+    sharedPropertyDefinition.get = shouldCache
+      ? createComputedGetter(key)
+      : userDef;
     sharedPropertyDefinition.set = noop;
   } else {
     sharedPropertyDefinition.get = userDef.get
-      ? userDef.cache !== false
+      ? shouldCache && userDef.cache !== false
         ? createComputedGetter(key)
         : userDef.get
       : noop;
@@ -37849,22 +37902,28 @@ function initMethods (vm, methods) {
   "development" !== 'production' && checkOptionType(vm, 'methods');
   var props = vm.$options.props;
   for (var key in methods) {
-    vm[key] = methods[key] == null ? noop : bind(methods[key], vm);
     if (true) {
       if (methods[key] == null) {
         warn(
-          "method \"" + key + "\" has an undefined value in the component definition. " +
+          "Method \"" + key + "\" has an undefined value in the component definition. " +
           "Did you reference the function correctly?",
           vm
         );
       }
       if (props && hasOwn(props, key)) {
         warn(
-          ("method \"" + key + "\" has already been defined as a prop."),
+          ("Method \"" + key + "\" has already been defined as a prop."),
           vm
         );
       }
+      if ((key in vm) && isReserved(key)) {
+        warn(
+          "Method \"" + key + "\" conflicts with an existing Vue instance method. " +
+          "Avoid defining component methods that start with _ or $."
+        );
+      }
     }
+    vm[key] = methods[key] == null ? noop : bind(methods[key], vm);
   }
 }
 
@@ -37984,7 +38043,10 @@ function resolveInject (inject, vm) {
     // inject is :any because flow is not smart enough to figure out cached
     var result = Object.create(null);
     var keys = hasSymbol
-        ? Reflect.ownKeys(inject)
+        ? Reflect.ownKeys(inject).filter(function (key) {
+          /* istanbul ignore next */
+          return Object.getOwnPropertyDescriptor(inject, key).enumerable
+        })
         : Object.keys(inject);
 
     for (var i = 0; i < keys.length; i++) {
@@ -38019,7 +38081,7 @@ function createFunctionalComponent (
   var propOptions = Ctor.options.props;
   if (isDef(propOptions)) {
     for (var key in propOptions) {
-      props[key] = validateProp(key, propOptions, propsData || {});
+      props[key] = validateProp(key, propOptions, propsData || emptyObject);
     }
   } else {
     if (isDef(data.attrs)) { mergeProps(props, data.attrs); }
@@ -38034,7 +38096,7 @@ function createFunctionalComponent (
     props: props,
     children: children,
     parent: context,
-    listeners: data.on || {},
+    listeners: data.on || emptyObject,
     injections: resolveInject(Ctor.options.inject, context),
     slots: function () { return resolveSlots(children, context); }
   });
@@ -38358,7 +38420,7 @@ function _createElement (
   var vnode, ns;
   if (typeof tag === 'string') {
     var Ctor;
-    ns = config.getTagNamespace(tag);
+    ns = (context.$vnode && context.$vnode.ns) || config.getTagNamespace(tag);
     if (config.isReservedTag(tag)) {
       // platform built-in elements
       vnode = new VNode(
@@ -38654,17 +38716,18 @@ function initRender (vm) {
   // $attrs & $listeners are exposed for easier HOC creation.
   // they need to be reactive so that HOCs using them are always updated
   var parentData = parentVnode && parentVnode.data;
+
   /* istanbul ignore else */
   if (true) {
-    defineReactive$$1(vm, '$attrs', parentData && parentData.attrs, function () {
+    defineReactive$$1(vm, '$attrs', parentData && parentData.attrs || emptyObject, function () {
       !isUpdatingChildComponent && warn("$attrs is readonly.", vm);
     }, true);
-    defineReactive$$1(vm, '$listeners', vm.$options._parentListeners, function () {
+    defineReactive$$1(vm, '$listeners', vm.$options._parentListeners || emptyObject, function () {
       !isUpdatingChildComponent && warn("$listeners is readonly.", vm);
     }, true);
   } else {
-    defineReactive$$1(vm, '$attrs', parentData && parentData.attrs, null, true);
-    defineReactive$$1(vm, '$listeners', vm.$options._parentListeners, null, true);
+    defineReactive$$1(vm, '$attrs', parentData && parentData.attrs || emptyObject, null, true);
+    defineReactive$$1(vm, '$listeners', vm.$options._parentListeners || emptyObject, null, true);
   }
 }
 
@@ -38681,9 +38744,13 @@ function renderMixin (Vue) {
     var _parentVnode = ref._parentVnode;
 
     if (vm._isMounted) {
-      // clone slot nodes on re-renders
+      // if the parent didn't update, the slot nodes will be the ones from
+      // last render. They need to be cloned to ensure "freshness" for this render.
       for (var key in vm.$slots) {
-        vm.$slots[key] = cloneVNodes(vm.$slots[key]);
+        var slot = vm.$slots[key];
+        if (slot._rendered) {
+          vm.$slots[key] = cloneVNodes(slot, true /* deep */);
+        }
       }
     }
 
@@ -39228,7 +39295,7 @@ Object.defineProperty(Vue$3.prototype, '$ssrContext', {
   }
 });
 
-Vue$3.version = '2.4.2';
+Vue$3.version = '2.4.4';
 
 /*  */
 
@@ -39237,7 +39304,7 @@ Vue$3.version = '2.4.2';
 var isReservedAttr = makeMap('style,class');
 
 // attributes that should be using props for binding
-var acceptValue = makeMap('input,textarea,option,select');
+var acceptValue = makeMap('input,textarea,option,select,progress');
 var mustUseProp = function (tag, type, attr) {
   return (
     (attr === 'value' && acceptValue(tag)) && type !== 'button' ||
@@ -39426,6 +39493,8 @@ function isUnknownElement (tag) {
   }
 }
 
+var isTextInputType = makeMap('text,number,password,search,email,tel,url');
+
 /*  */
 
 /**
@@ -39572,8 +39641,6 @@ function registerRef (vnode, isRemoval) {
  *
  * modified by Evan You (@yyx990803)
  *
-
-/*
  * Not type-checking this because this file is perf-critical and the cost
  * of making flow understand it is not worth it.
  */
@@ -39599,14 +39666,12 @@ function sameVnode (a, b) {
   )
 }
 
-// Some browsers do not support dynamically changing type for <input>
-// so they need to be treated as different nodes
 function sameInputType (a, b) {
   if (a.tag !== 'input') { return true }
   var i;
   var typeA = isDef(i = a.data) && isDef(i = i.attrs) && i.type;
   var typeB = isDef(i = b.data) && isDef(i = i.attrs) && i.type;
-  return typeA === typeB
+  return typeA === typeB || isTextInputType(typeA) && isTextInputType(typeB)
 }
 
 function createKeyToOldIdx (children, beginIdx, endIdx) {
@@ -39938,10 +40003,11 @@ function createPatchFunction (backend) {
         newStartVnode = newCh[++newStartIdx];
       } else {
         if (isUndef(oldKeyToIdx)) { oldKeyToIdx = createKeyToOldIdx(oldCh, oldStartIdx, oldEndIdx); }
-        idxInOld = isDef(newStartVnode.key) ? oldKeyToIdx[newStartVnode.key] : null;
+        idxInOld = isDef(newStartVnode.key)
+          ? oldKeyToIdx[newStartVnode.key]
+          : findIdxInOld(newStartVnode, oldCh, oldStartIdx, oldEndIdx);
         if (isUndef(idxInOld)) { // New element
           createElm(newStartVnode, insertedVnodeQueue, parentElm, oldStartVnode.elm);
-          newStartVnode = newCh[++newStartIdx];
         } else {
           elmToMove = oldCh[idxInOld];
           /* istanbul ignore if */
@@ -39955,13 +40021,12 @@ function createPatchFunction (backend) {
             patchVnode(elmToMove, newStartVnode, insertedVnodeQueue);
             oldCh[idxInOld] = undefined;
             canMove && nodeOps.insertBefore(parentElm, elmToMove.elm, oldStartVnode.elm);
-            newStartVnode = newCh[++newStartIdx];
           } else {
             // same key but different element. treat as new element
             createElm(newStartVnode, insertedVnodeQueue, parentElm, oldStartVnode.elm);
-            newStartVnode = newCh[++newStartIdx];
           }
         }
+        newStartVnode = newCh[++newStartIdx];
       }
     }
     if (oldStartIdx > oldEndIdx) {
@@ -39969,6 +40034,13 @@ function createPatchFunction (backend) {
       addVnodes(parentElm, refElm, newCh, newStartIdx, newEndIdx, insertedVnodeQueue);
     } else if (newStartIdx > newEndIdx) {
       removeVnodes(parentElm, oldCh, oldStartIdx, oldEndIdx);
+    }
+  }
+
+  function findIdxInOld (node, oldCh, start, end) {
+    for (var i = start; i < end; i++) {
+      var c = oldCh[i];
+      if (isDef(c) && sameVnode(node, c)) { return i }
     }
   }
 
@@ -40079,27 +40151,46 @@ function createPatchFunction (backend) {
         if (!elm.hasChildNodes()) {
           createChildren(vnode, children, insertedVnodeQueue);
         } else {
-          var childrenMatch = true;
-          var childNode = elm.firstChild;
-          for (var i$1 = 0; i$1 < children.length; i$1++) {
-            if (!childNode || !hydrate(childNode, children[i$1], insertedVnodeQueue)) {
-              childrenMatch = false;
-              break
+          // v-html and domProps: innerHTML
+          if (isDef(i = data) && isDef(i = i.domProps) && isDef(i = i.innerHTML)) {
+            if (i !== elm.innerHTML) {
+              /* istanbul ignore if */
+              if ("development" !== 'production' &&
+                typeof console !== 'undefined' &&
+                !bailed
+              ) {
+                bailed = true;
+                console.warn('Parent: ', elm);
+                console.warn('server innerHTML: ', i);
+                console.warn('client innerHTML: ', elm.innerHTML);
+              }
+              return false
             }
-            childNode = childNode.nextSibling;
-          }
-          // if childNode is not null, it means the actual childNodes list is
-          // longer than the virtual children list.
-          if (!childrenMatch || childNode) {
-            if ("development" !== 'production' &&
-              typeof console !== 'undefined' &&
-              !bailed
-            ) {
-              bailed = true;
-              console.warn('Parent: ', elm);
-              console.warn('Mismatching childNodes vs. VNodes: ', elm.childNodes, children);
+          } else {
+            // iterate and compare children lists
+            var childrenMatch = true;
+            var childNode = elm.firstChild;
+            for (var i$1 = 0; i$1 < children.length; i$1++) {
+              if (!childNode || !hydrate(childNode, children[i$1], insertedVnodeQueue)) {
+                childrenMatch = false;
+                break
+              }
+              childNode = childNode.nextSibling;
             }
-            return false
+            // if childNode is not null, it means the actual childNodes list is
+            // longer than the virtual children list.
+            if (!childrenMatch || childNode) {
+              /* istanbul ignore if */
+              if ("development" !== 'production' &&
+                typeof console !== 'undefined' &&
+                !bailed
+              ) {
+                bailed = true;
+                console.warn('Parent: ', elm);
+                console.warn('Mismatching childNodes vs. VNodes: ', elm.childNodes, children);
+              }
+              return false
+            }
           }
         }
       }
@@ -40190,14 +40281,28 @@ function createPatchFunction (backend) {
           // component root element replaced.
           // update parent placeholder node element, recursively
           var ancestor = vnode.parent;
+          var patchable = isPatchable(vnode);
           while (ancestor) {
-            ancestor.elm = vnode.elm;
-            ancestor = ancestor.parent;
-          }
-          if (isPatchable(vnode)) {
-            for (var i = 0; i < cbs.create.length; ++i) {
-              cbs.create[i](emptyNode, vnode.parent);
+            for (var i = 0; i < cbs.destroy.length; ++i) {
+              cbs.destroy[i](ancestor);
             }
+            ancestor.elm = vnode.elm;
+            if (patchable) {
+              for (var i$1 = 0; i$1 < cbs.create.length; ++i$1) {
+                cbs.create[i$1](emptyNode, ancestor);
+              }
+              // #6513
+              // invoke insert hooks that may have been merged by create hooks.
+              // e.g. for directives that uses the "inserted" hook.
+              var insert = ancestor.data.hook.insert;
+              if (insert.merged) {
+                // start at index 1 to avoid re-invoking component mounted hook
+                for (var i$2 = 1; i$2 < insert.fns.length; i$2++) {
+                  insert.fns[i$2]();
+                }
+              }
+            }
+            ancestor = ancestor.parent;
           }
         }
 
@@ -40381,7 +40486,12 @@ function setAttr (el, key, value) {
     if (isFalsyAttrValue(value)) {
       el.removeAttribute(key);
     } else {
-      el.setAttribute(key, key);
+      // technically allowfullscreen is a boolean attribute for <iframe>,
+      // but Flash expects a value of "true" when used on <embed> tag
+      value = key === 'allowfullscreen' && el.tagName === 'EMBED'
+        ? 'true'
+        : key;
+      el.setAttribute(key, value);
     }
   } else if (isEnumeratedAttr(key)) {
     el.setAttribute(key, isFalsyAttrValue(value) || value === 'false' ? 'false' : 'true');
@@ -40888,7 +40998,7 @@ function genCheckboxModel (
     'if(Array.isArray($$a)){' +
       "var $$v=" + (number ? '_n(' + valueBinding + ')' : valueBinding) + "," +
           '$$i=_i($$a,$$v);' +
-      "if($$el.checked){$$i<0&&(" + value + "=$$a.concat($$v))}" +
+      "if($$el.checked){$$i<0&&(" + value + "=$$a.concat([$$v]))}" +
       "else{$$i>-1&&(" + value + "=$$a.slice(0,$$i).concat($$a.slice($$i+1)))}" +
     "}else{" + (genAssignmentCode(value, '$$c')) + "}",
     null, true
@@ -41257,7 +41367,7 @@ function updateStyle (oldVnode, vnode) {
   var style = normalizeStyleBinding(vnode.data.style) || {};
 
   // store normalized style under a different key for next diff
-  // make sure to clone it if it's reactive, since the user likley wants
+  // make sure to clone it if it's reactive, since the user likely wants
   // to mutate it.
   vnode.data.normalizedStyle = isDef(style.__ob__)
     ? extend({}, style)
@@ -41862,8 +41972,6 @@ var patch = createPatchFunction({ nodeOps: nodeOps, modules: modules });
  * properties to Elements.
  */
 
-var isTextInputType = makeMap('text,number,password,search,email,tel,url');
-
 /* istanbul ignore if */
 if (isIE9) {
   // http://www.matts411.com/post/internet-explorer-9-oninput/
@@ -41878,14 +41986,7 @@ if (isIE9) {
 var model$1 = {
   inserted: function inserted (el, binding, vnode) {
     if (vnode.tag === 'select') {
-      var cb = function () {
-        setSelected(el, binding, vnode.context);
-      };
-      cb();
-      /* istanbul ignore if */
-      if (isIE || isEdge) {
-        setTimeout(cb, 0);
-      }
+      setSelected(el, binding, vnode.context);
       el._vOptions = [].map.call(el.options, getValue);
     } else if (vnode.tag === 'textarea' || isTextInputType(el.type)) {
       el._vModifiers = binding.modifiers;
@@ -41916,13 +42017,30 @@ var model$1 = {
       var prevOptions = el._vOptions;
       var curOptions = el._vOptions = [].map.call(el.options, getValue);
       if (curOptions.some(function (o, i) { return !looseEqual(o, prevOptions[i]); })) {
-        trigger(el, 'change');
+        // trigger change event if
+        // no matching option found for at least one value
+        var needReset = el.multiple
+          ? binding.value.some(function (v) { return hasNoMatchingOption(v, curOptions); })
+          : binding.value !== binding.oldValue && hasNoMatchingOption(binding.value, curOptions);
+        if (needReset) {
+          trigger(el, 'change');
+        }
       }
     }
   }
 };
 
 function setSelected (el, binding, vm) {
+  actuallySetSelected(el, binding, vm);
+  /* istanbul ignore if */
+  if (isIE || isEdge) {
+    setTimeout(function () {
+      actuallySetSelected(el, binding, vm);
+    }, 0);
+  }
+}
+
+function actuallySetSelected (el, binding, vm) {
   var value = binding.value;
   var isMultiple = el.multiple;
   if (isMultiple && !Array.isArray(value)) {
@@ -41953,6 +42071,10 @@ function setSelected (el, binding, vm) {
   if (!isMultiple) {
     el.selectedIndex = -1;
   }
+}
+
+function hasNoMatchingOption (value, options) {
+  return options.every(function (o) { return !looseEqual(o, value); })
 }
 
 function getValue (option) {
@@ -42115,10 +42237,6 @@ function hasParentTransition (vnode) {
 
 function isSameChild (child, oldChild) {
   return oldChild.key === child.key && oldChild.tag === child.tag
-}
-
-function isAsyncPlaceholder (node) {
-  return node.isComment && node.asyncFactory
 }
 
 var Transition = {
@@ -42688,29 +42806,14 @@ var he = {
  */
 
 // Regular Expressions for parsing tags and attributes
-var singleAttrIdentifier = /([^\s"'<>/=]+)/;
-var singleAttrAssign = /(?:=)/;
-var singleAttrValues = [
-  // attr value double quotes
-  /"([^"]*)"+/.source,
-  // attr value, single quotes
-  /'([^']*)'+/.source,
-  // attr value, no quotes
-  /([^\s"'=<>`]+)/.source
-];
-var attribute = new RegExp(
-  '^\\s*' + singleAttrIdentifier.source +
-  '(?:\\s*(' + singleAttrAssign.source + ')' +
-  '\\s*(?:' + singleAttrValues.join('|') + '))?'
-);
-
+var attribute = /^\s*([^\s"'<>\/=]+)(?:\s*(=)\s*(?:"([^"]*)"+|'([^']*)'+|([^\s"'=<>`]+)))?/;
 // could use https://www.w3.org/TR/1999/REC-xml-names-19990114/#NT-QName
 // but for Vue templates we can enforce a simple charset
 var ncname = '[a-zA-Z_][\\w\\-\\.]*';
-var qnameCapture = '((?:' + ncname + '\\:)?' + ncname + ')';
-var startTagOpen = new RegExp('^<' + qnameCapture);
+var qnameCapture = "((?:" + ncname + "\\:)?" + ncname + ")";
+var startTagOpen = new RegExp(("^<" + qnameCapture));
 var startTagClose = /^\s*(\/?)>/;
-var endTag = new RegExp('^<\\/' + qnameCapture + '[^>]*>');
+var endTag = new RegExp(("^<\\/" + qnameCapture + "[^>]*>"));
 var doctype = /^<!DOCTYPE [^>]+>/i;
 var comment = /^<!--/;
 var conditionalComment = /^<!\[/;
@@ -43410,6 +43513,8 @@ function processSlot (el) {
     var slotTarget = getBindingAttr(el, 'slot');
     if (slotTarget) {
       el.slotTarget = slotTarget === '""' ? '"default"' : slotTarget;
+      // preserve slot as an attribute for native shadow DOM compat
+      addAttr(el, 'slot', slotTarget);
     }
     if (el.tag === 'template') {
       el.slotScope = getAndRemoveAttr(el, 'scope');
@@ -43946,7 +44051,7 @@ function genOnce (el, state) {
       );
       return genElement(el, state)
     }
-    return ("_o(" + (genElement(el, state)) + "," + (state.onceId++) + (key ? ("," + key) : "") + ")")
+    return ("_o(" + (genElement(el, state)) + "," + (state.onceId++) + "," + key + ")")
   } else {
     return genStatic(el, state)
   }
@@ -44669,7 +44774,8 @@ module.exports = Vue$3;
 //admin
 var routes = [{
     path: '/',
-    component: __webpack_require__(10)
+    component: __webpack_require__(10),
+    name: 'home'
 }, {
     path: '/blog',
     component: __webpack_require__(11)
@@ -44684,15 +44790,38 @@ var routes = [{
     component: __webpack_require__(14)
 }, {
     path: '/userprofile',
-    component: __webpack_require__(15)
+    component: __webpack_require__(15),
+    meta: {
+        requiresAuth: true
+    }
     /*{
     path:'/About',
     component:require('./components/')
-      } */
+     } */
 }];
+
+// export const router = new VueRouter({
+//     mode: 'history',
+//     routes
+// });
 /* harmony default export */ __webpack_exports__["a"] = (new __WEBPACK_IMPORTED_MODULE_0_vue_router__["a" /* default */]({
     routes: routes
 }));
+
+// routes.beforeEach((to, from, next) => {
+//     if(to.meta.requiresAuth){
+//         const authUser = JSON.parse(window.localStorage.getItem('token'));
+//
+//         if(authUser && authUser.token){
+//             next();
+//         }else{
+//             next({
+//                 name: 'home'
+//             })
+//         }
+//         next()
+//     }
+// });
 
 /***/ }),
 /* 45 */
@@ -44928,6 +45057,42 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony default export */ __webpack_exports__["default"] = ({
     mounted: function mounted() {
         console.log('Component mounted.');
+    },
+    data: function data() {
+        return {
+            userDetail: {
+                username: '',
+                password: ''
+            },
+            userData: []
+        };
+    },
+
+    methods: {
+        checkUser: function checkUser() {
+            var _this = this;
+
+            var users = this;
+            axios.post('api/auth/login', {
+                email: this.userDetail.username,
+                password: this.userDetail.password
+            }).then(function (response) {
+                //                  console.log(response.data.token);
+
+                localStorage.setItem('token', response.data.token);
+                //                  console.log(localStorage.getItem('token'));
+                users.userData = _this.parseJWT(localStorage.getItem('token'));
+
+                users.$router.push('/userprofile');
+            });
+        },
+        parseJWT: function parseJWT(userToken) {
+            var splitToken = userToken.split('.')[1];
+            var tokenReplace = splitToken.replace('-', '+').replace('_', '/');
+
+            return JSON.parse(window.atob(tokenReplace));
+        }
+
     }
 });
 
@@ -44936,8 +45101,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _vm._m(0)
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     attrs: {
       "id": "main-wrapper"
@@ -44950,19 +45113,81 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "container"
   }, [_c('div', {
     staticClass: "row"
-  }, [_c('div', {
-    staticClass: "col-sm-7"
-  }, [_c('div', {
-    staticClass: "text-area"
-  }, [_c('div', {
-    staticClass: "position-center-center col-md-10"
-  }, [_c('h1', [_vm._v("Creative Youth")]), _vm._v(" "), _c('h6', [_vm._v(" where you can be a enterprenuer ")])])])]), _vm._v(" "), _c('div', {
+  }, [_vm._m(0), _vm._v(" "), _c('div', {
     staticClass: "col-sm-5"
   }, [_c('div', {
     staticClass: "login-sec"
   }, [_c('div', {
     staticClass: "uou-tabs accordion-xs"
-  }, [_c('ul', {
+  }, [_vm._m(1), _vm._v(" "), _c('div', {
+    staticClass: "content"
+  }, [_vm._m(2), _vm._v(" "), _c('div', {
+    staticClass: "active",
+    attrs: {
+      "id": "log-in"
+    }
+  }, [_c('form', {
+    on: {
+      "submit": function($event) {
+        $event.preventDefault();
+        _vm.checkUser()
+      }
+    }
+  }, [_c('input', {
+    directives: [{
+      name: "model",
+      rawName: "v-model",
+      value: (_vm.userDetail.username),
+      expression: "userDetail.username"
+    }],
+    attrs: {
+      "type": "email",
+      "placeholder": "Email Address"
+    },
+    domProps: {
+      "value": (_vm.userDetail.username)
+    },
+    on: {
+      "input": function($event) {
+        if ($event.target.composing) { return; }
+        _vm.userDetail.username = $event.target.value
+      }
+    }
+  }), _vm._v(" "), _c('input', {
+    directives: [{
+      name: "model",
+      rawName: "v-model",
+      value: (_vm.userDetail.password),
+      expression: "userDetail.password"
+    }],
+    attrs: {
+      "type": "password",
+      "placeholder": "Password"
+    },
+    domProps: {
+      "value": (_vm.userDetail.password)
+    },
+    on: {
+      "input": function($event) {
+        if ($event.target.composing) { return; }
+        _vm.userDetail.password = $event.target.value
+      }
+    }
+  }), _vm._v(" "), _c('button', {
+    attrs: {
+      "type": "submit"
+    }
+  }, [_vm._v("Login")]), _vm._v(" "), _vm._m(3)])]), _vm._v(" "), _vm._m(4)])])])])])])]), _vm._v(" "), _vm._m(5), _vm._v(" "), _vm._m(6), _vm._v(" "), _vm._m(7), _vm._v(" "), _vm._m(8)])])
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "col-sm-7"
+  }, [_c('div', {
+    staticClass: "text-area"
+  }, [_c('div', {
+    staticClass: "position-center-center col-md-10"
+  }, [_c('h1', [_vm._v("Creative Youth")]), _vm._v(" "), _c('h6', [_vm._v(" where you can be a enterprenuer ")])])])])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('ul', {
     staticClass: "tabs"
   }, [_c('li', {
     staticClass: "active"
@@ -44974,9 +45199,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "href": "#log-in"
     }
-  }, [_vm._v("Member Login")])])]), _vm._v(" "), _c('div', {
-    staticClass: "content"
-  }, [_c('div', {
+  }, [_vm._v("Member Login")])])])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
     attrs: {
       "id": "register"
     }
@@ -45026,32 +45251,17 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "type": "submit"
     }
-  }, [_vm._v("Register")])])]), _vm._v(" "), _c('div', {
-    staticClass: "active",
-    attrs: {
-      "id": "log-in"
-    }
-  }, [_c('form', [_c('input', {
-    attrs: {
-      "type": "email",
-      "placeholder": "Email Address"
-    }
-  }), _vm._v(" "), _c('input', {
-    attrs: {
-      "type": "password",
-      "placeholder": "Password"
-    }
-  }), _vm._v(" "), _c('button', {
-    attrs: {
-      "type": "submit"
-    }
-  }, [_vm._v("Login")]), _vm._v(" "), _c('div', {
+  }, [_vm._v("Register")])])])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
     staticClass: "forget"
   }, [_vm._v("Forgot your password? "), _c('a', {
     attrs: {
       "href": "#."
     }
-  }, [_vm._v("Click Here")])])])]), _vm._v(" "), _c('div', {
+  }, [_vm._v("Click Here")])])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
     attrs: {
       "id": "forget"
     }
@@ -45064,7 +45274,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "type": "submit"
     }
-  }, [_vm._v("Login")])])])])])])])])])]), _vm._v(" "), _c('section', {
+  }, [_vm._v("Login")])])])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('section', {
     staticClass: "services"
   }, [_c('ul', {
     staticClass: "row"
@@ -45092,7 +45304,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "fa fa-picture-o"
   }), _vm._v(" "), _c('h4', [_vm._v("Share what’s up\n                            with you")]), _vm._v(" "), _c('i', {
     staticClass: "fa fa-picture-o big"
-  })])])])]), _vm._v(" "), _c('section', {
+  })])])])])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('section', {
     staticClass: "pro-content"
   }, [_c('div', {
     staticClass: "container-fluid"
@@ -45120,7 +45334,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticStyle: {
       "background": "url(images/pro-img-2.jpg) center center no-repeat"
     }
-  })])])]), _vm._v(" "), _c('section', {
+  })])])])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('section', {
     staticClass: "app-images"
   }, [_c('div', {
     staticClass: "container"
@@ -45128,7 +45344,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "row"
   }, [_c('div', {
     staticClass: "col-md-6 text-center text-area"
-  }, [_c('h1', [_vm._v("SocialMe for your\n                            Smartphone")]), _vm._v(" "), _c('p', [_vm._v("Sed ut perspiciatis unde omnis iste natus error sit voluptatem\n                            accusantium doloremque laudantium, totam rem aperiam,\n                            eaque ipsa quae ab illo inventore veritatis et quasi architecto\n                            beatae vitae dicta sunt explicabo. ")])])])])]), _vm._v(" "), _c('section', {
+  }, [_c('h1', [_vm._v("SocialMe for your\n                            Smartphone")]), _vm._v(" "), _c('p', [_vm._v("Sed ut perspiciatis unde omnis iste natus error sit voluptatem\n                            accusantium doloremque laudantium, totam rem aperiam,\n                            eaque ipsa quae ab illo inventore veritatis et quasi architecto\n                            beatae vitae dicta sunt explicabo. ")])])])])])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('section', {
     staticClass: "clients-says"
   }, [_c('div', {
     staticClass: "container"
@@ -45195,13 +45413,13 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   })])]), _vm._v(" "), _c('div', {
     staticClass: "media-body"
-  }, [_c('h6', [_vm._v("Prajwol Maharjan")]), _vm._v(" "), _c('span', [_vm._v("prajwolmaharjan88@gmail.com")])])])])])])])])])])
+  }, [_c('h6', [_vm._v("Prajwol Maharjan")]), _vm._v(" "), _c('span', [_vm._v("prajwolmaharjan88@gmail.com")])])])])])])])])
 }]}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-1f344f72", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-efb2c958", module.exports)
   }
 }
 
@@ -45833,7 +46051,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-14c070b5", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-7db2bc97", module.exports)
   }
 }
 
@@ -45886,13 +46104,13 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "blog-content pt60"
   }, [_c('div', {
     staticClass: "container"
-  }, [_vm._v("\r\n            This is Event page\r\n        ")])])])
+  }, [_vm._v("\n            This is Event page\n        ")])])])
 }]}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-4d940817", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-02eb3875", module.exports)
   }
 }
 
@@ -46169,7 +46387,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-72506ea9", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-26986107", module.exports)
   }
 }
 
@@ -46228,7 +46446,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-e15a6934", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-0f75d170", module.exports)
   }
 }
 
@@ -48212,7 +48430,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-552bd18a", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-f5b1edce", module.exports)
   }
 }
 
@@ -48233,7 +48451,7 @@ var Component = __webpack_require__(1)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "C:\\xampp\\htdocs\\CreativeYouth\\resources\\assets\\js\\components\\admin\\layouts\\main.vue"
+Component.options.__file = "/var/www/html/cy/resources/assets/js/components/admin/layouts/main.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] main.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -48244,9 +48462,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-39a4120b", Component.options)
+    hotAPI.createRecord("data-v-22097b2e", Component.options)
   } else {
-    hotAPI.reload("data-v-39a4120b", Component.options)
+    hotAPI.reload("data-v-22097b2e", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -48310,7 +48528,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-39a4120b", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-22097b2e", module.exports)
   }
 }
 
@@ -48331,7 +48549,7 @@ var Component = __webpack_require__(1)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "C:\\xampp\\htdocs\\CreativeYouth\\resources\\assets\\js\\components\\admin\\layouts\\navbar.vue"
+Component.options.__file = "/var/www/html/cy/resources/assets/js/components/admin/layouts/navbar.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] navbar.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -48342,9 +48560,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-77847e62", Component.options)
+    hotAPI.createRecord("data-v-33d10f40", Component.options)
   } else {
-    hotAPI.reload("data-v-77847e62", Component.options)
+    hotAPI.reload("data-v-33d10f40", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -48385,7 +48603,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-77847e62", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-33d10f40", module.exports)
   }
 }
 
@@ -48406,7 +48624,7 @@ var Component = __webpack_require__(1)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "C:\\xampp\\htdocs\\CreativeYouth\\resources\\assets\\js\\components\\admin\\layouts\\footer.vue"
+Component.options.__file = "/var/www/html/cy/resources/assets/js/components/admin/layouts/footer.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] footer.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -48417,9 +48635,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-4e5b4b26", Component.options)
+    hotAPI.createRecord("data-v-d5c2296a", Component.options)
   } else {
-    hotAPI.reload("data-v-4e5b4b26", Component.options)
+    hotAPI.reload("data-v-d5c2296a", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -48460,7 +48678,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-4e5b4b26", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-d5c2296a", module.exports)
   }
 }
 
@@ -48481,7 +48699,7 @@ var Component = __webpack_require__(1)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "C:\\xampp\\htdocs\\CreativeYouth\\resources\\assets\\js\\components\\client\\layouts\\main.vue"
+Component.options.__file = "/var/www/html/cy/resources/assets/js/components/client/layouts/main.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] main.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -48492,9 +48710,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-0135dbb2", Component.options)
+    hotAPI.createRecord("data-v-161824ee", Component.options)
   } else {
-    hotAPI.reload("data-v-0135dbb2", Component.options)
+    hotAPI.reload("data-v-161824ee", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -48520,7 +48738,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     mounted: function mounted() {
-        //            console.log('Component mounted.')
+        console.log('Component mounted main.');
     }
 });
 
@@ -48535,7 +48753,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-0135dbb2", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-161824ee", module.exports)
   }
 }
 
@@ -48556,7 +48774,7 @@ var Component = __webpack_require__(1)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "C:\\xampp\\htdocs\\CreativeYouth\\resources\\assets\\js\\components\\client\\layouts\\navbar.vue"
+Component.options.__file = "/var/www/html/cy/resources/assets/js/components/client/layouts/navbar.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] navbar.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -48567,9 +48785,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-5df43104", Component.options)
+    hotAPI.createRecord("data-v-c3691b40", Component.options)
   } else {
-    hotAPI.reload("data-v-5df43104", Component.options)
+    hotAPI.reload("data-v-c3691b40", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -48683,7 +48901,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_c('img', {
     attrs: {
-      "src": "images/logo.png",
+      "src": "",
       "alt": ""
     }
   })])
@@ -48735,7 +48953,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-5df43104", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-c3691b40", module.exports)
   }
 }
 
@@ -48756,7 +48974,7 @@ var Component = __webpack_require__(1)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "C:\\xampp\\htdocs\\CreativeYouth\\resources\\assets\\js\\components\\client\\layouts\\footer.vue"
+Component.options.__file = "/var/www/html/cy/resources/assets/js/components/client/layouts/footer.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] footer.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -48767,9 +48985,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-3253c389", Component.options)
+    hotAPI.createRecord("data-v-00cd632a", Component.options)
   } else {
-    hotAPI.reload("data-v-3253c389", Component.options)
+    hotAPI.reload("data-v-00cd632a", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -48943,7 +49161,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-3253c389", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-00cd632a", module.exports)
   }
 }
 
@@ -48951,7 +49169,7 @@ if (false) {
 /* 75 */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: ModuleNotFoundError: Module not found: Error: Can't resolve '../img/pricing-table-bg.jpg' in 'C:\\xampp\\htdocs\\CreativeYouth\\resources\\assets\\sass'\n    at factoryCallback (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\webpack\\lib\\Compilation.js:264:39)\n    at factory (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\webpack\\lib\\NormalModuleFactory.js:235:20)\n    at resolver (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\webpack\\lib\\NormalModuleFactory.js:60:20)\n    at asyncLib.parallel.e (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\webpack\\lib\\NormalModuleFactory.js:127:20)\n    at C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\async\\dist\\async.js:3861:9\n    at C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\async\\dist\\async.js:421:16\n    at iteratorCallback (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\async\\dist\\async.js:996:13)\n    at C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\async\\dist\\async.js:906:16\n    at C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\async\\dist\\async.js:3858:13\n    at resolvers.normal.resolve (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\webpack\\lib\\NormalModuleFactory.js:119:22)\n    at onError (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\enhanced-resolve\\lib\\Resolver.js:65:10)\n    at loggingCallbackWrapper (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\enhanced-resolve\\lib\\createInnerCallback.js:31:19)\n    at runAfter (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\enhanced-resolve\\lib\\Resolver.js:158:4)\n    at innerCallback (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\enhanced-resolve\\lib\\Resolver.js:146:3)\n    at loggingCallbackWrapper (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\enhanced-resolve\\lib\\createInnerCallback.js:31:19)\n    at next (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\tapable\\lib\\Tapable.js:234:11)\n    at C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\enhanced-resolve\\lib\\UnsafeCachePlugin.js:40:4\n    at loggingCallbackWrapper (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\enhanced-resolve\\lib\\createInnerCallback.js:31:19)\n    at runAfter (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\enhanced-resolve\\lib\\Resolver.js:158:4)\n    at innerCallback (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\enhanced-resolve\\lib\\Resolver.js:146:3)\n    at loggingCallbackWrapper (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\enhanced-resolve\\lib\\createInnerCallback.js:31:19)\n    at next (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\tapable\\lib\\Tapable.js:234:11)\n    at innerCallback (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\enhanced-resolve\\lib\\Resolver.js:144:11)\n    at loggingCallbackWrapper (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\enhanced-resolve\\lib\\createInnerCallback.js:31:19)\n    at next (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\tapable\\lib\\Tapable.js:231:35)\n    at resolver.doResolve.createInnerCallback (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\enhanced-resolve\\lib\\DescriptionFilePlugin.js:44:6)\n    at loggingCallbackWrapper (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\enhanced-resolve\\lib\\createInnerCallback.js:31:19)\n    at afterInnerCallback (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\enhanced-resolve\\lib\\Resolver.js:168:10)\n    at loggingCallbackWrapper (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\enhanced-resolve\\lib\\createInnerCallback.js:31:19)\n    at next (C:\\xampp\\htdocs\\CreativeYouth\\node_modules\\tapable\\lib\\Tapable.js:234:11)");
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);

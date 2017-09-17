@@ -106,5 +106,5 @@ $api->version('v1',['namespace' => "App\Http\Controllers"], function ($api) {
 
 
 // /* Auth */
-// Route::post('auth/login', 'AuthController@login');
-// Route::get('/authuser', 'AuthController@getAuthUser');
+ Route::post('/auth/login', 'AuthController@login');
+ Route::get('/authuser', 'AuthController@getAuthUser');

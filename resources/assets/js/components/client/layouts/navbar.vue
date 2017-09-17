@@ -6,7 +6,7 @@
 
         <div class="box-shadow-for-ui">
             <div class="uou-block-2b">
-                <div class="container"> <a href="#" class="logo"><img src="images/logo.png" alt=""></a> <a href="#" class="mobile-sidebar-button mobile-sidebar-toggle"><span></span></a>
+                <div class="container"> <a href="#" class="logo"><img src="" alt=""></a> <a href="#" class="mobile-sidebar-button mobile-sidebar-toggle"><span></span></a>
                     <nav class="nav">
                         <ul class="sf-menu">
                             <li><router-link to="/">Home</router-link></li>

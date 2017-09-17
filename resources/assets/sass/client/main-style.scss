@@ -4378,7 +4378,7 @@ input[type="radio"][disabled], input[type="checkbox"][disabled], input[type="rad
 .pricing-table .column > header .price {
 	font-size: 48px;
 	color: #ffffff;
-	background: url("../img/pricing-table-bg.jpg") top center no-repeat;
+	//background: url("../img/pricing-table-bg.jpg") top center no-repeat;
 }
 .pricing-table .column > header .price:before {
 	content: '$';
@@ -4458,7 +4458,7 @@ input[type="radio"][disabled], input[type="checkbox"][disabled], input[type="rad
 	position: relative;
 	padding: 50px 0 40px;
 	font-size: 51px;
-	background: url("../img/pricing-table-bg.jpg") top center no-repeat;
+	//background: url("../img/pricing-table-bg.jpg") top center no-repeat;
 	color: #fff;
 }
 .pricing-table .price b {
@@ -4736,7 +4736,7 @@ html[xmlns] .flexslider .slides {
 	height: 80px;
 	margin: -40px 0 0 -40px;
 	background: #333;
-	background: url(../js/plugins/mejs/background.png);
+	//background: url(../js/plugins/mejs/background.png);
 	background: rgba(0, 0, 0, 0.9);
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(50, 50, 50, 0.9)), to(rgba(0, 0, 0, 0.9)));
 	background: -webkit-linear-gradient(top, rgba(50, 50, 50, 0.9), rgba(0, 0, 0, 0.9));
@@ -4749,7 +4749,7 @@ html[xmlns] .flexslider .slides {
 	display: block;
 	width: 80px;
 	height: 80px;
-	background: transparent url(../js/plugins/mejs/loading.gif) 50% 50% no-repeat;
+	//background: transparent url(../js/plugins/mejs/loading.gif) 50% 50% no-repeat;
 }
 /* End: LAYERS */
 /* Start: CONTROL BAR */
@@ -4790,10 +4790,10 @@ html[xmlns] .flexslider .slides {
 	height: 16px;
 	width: 16px;
 	border: 0;
-	background: transparent url(../js/plugins/mejs/controls.svg) no-repeat;
+	//background: transparent url(../js/plugins/mejs/controls.svg) no-repeat;
 }
 .no-svg .mejs-controls .mejs-button button {
-	background-image: url(../js/plugins/mejs/controls.png);
+	//background-image: url(../js/plugins/mejs/controls.png);
 }
 /* :focus for accessibility */
 /* End: CONTROL BAR */
@@ -5101,7 +5101,7 @@ to {
 	right: -51px;
 	width: 85px;
 	height: 100px;
-	background: url(../js/plugins/mejs/background.png);
+	//background: url(../js/plugins/mejs/background.png);
 	background: rgba(50, 50, 50, 0.7);
 	border: solid 1px transparent;
 	padding: 10px 10px 0 10px;
@@ -5238,7 +5238,7 @@ to {
 }
 .mejs-captions-text {
 	padding: 3px 5px;
-	background: url(../js/plugins/mejs/background.png);
+	//background: url(../js/plugins/mejs/background.png);
 	background: rgba(20, 20, 20, 0.5);
 	white-space: pre-wrap;
 }
@@ -5317,7 +5317,7 @@ to {
 	right: -10px;
 	width: 130px;
 	height: 100px;
-	background: url(../js/plugins/mejs/background.png);
+	//background: url(../js/plugins/mejs/background.png);
 	background: rgba(50, 50, 50, 0.7);
 	border: solid 1px transparent;
 	padding: 10px;
@@ -5362,7 +5362,7 @@ to {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url(../js/plugins/mejs/background.png);
+	//background: url(../js/plugins/mejs/background.png);
 	background: rgba(50, 50, 50, 0.7);
 	z-index: 1000;
 	overflow: hidden;
@@ -5375,7 +5375,7 @@ to {
 	position: absolute;
 	right: 0;
 	top: 0;
-	background: url(../js/plugins/mejs/background.png);
+	//background: url(../js/plugins/mejs/background.png);
 	background: rgba(50, 50, 50, 0.7);
 	color: #fff;
 	padding: 4px;
@@ -5402,7 +5402,7 @@ div.mejs-speed-button {
 	left: -10px;
 	width: 60px;
 	height: 100px;
-	background: url(../js/plugins/mejs/background.png);
+	//background: url(../js/plugins/mejs/background.png);
 	background: rgba(50, 50, 50, 0.7);
 	border: solid 1px transparent;
 	padding: 0;
@@ -5456,7 +5456,7 @@ div.mejs-speed-button {
 /* End: Speed */
 /* Start: Skip Back */
 .mejs-controls .mejs-button.mejs-skip-back-button {
-	background: transparent url(../js/plugins/mejs/skipback.png) no-repeat;
+	//background: transparent url(../js/plugins/mejs/skipback.png) no-repeat;
 	background-position: 3px 3px;
 }
 .mejs-controls .mejs-button.mejs-skip-back-button button {
@@ -5611,7 +5611,7 @@ div.mejs-speed-button {
 }
 }
 .copywrite-bg-image {
-	background: url("../img/copywrite-block-img1.png") top center no-repeat;
+	//background: url("../img/copywrite-block-img1.png") top center no-repeat;
 }
 @media screen and (max-width: 992px) {
 .copywrite-bg-image {
@@ -5789,7 +5789,7 @@ div.mejs-speed-button {
 .landing-header {
 	position: relative;
 	width: 100%;
-	background: url('../img/slider-img/slider-bg-11.jpg') top center no-repeat;
+	//background: url('../img/slider-img/slider-bg-11.jpg') top center no-repeat;
 	background-size: cover;
 	padding-top: 30px;
 }

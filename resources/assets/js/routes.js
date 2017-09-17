@@ -1,9 +1,10 @@
 import VueRouter from 'vue-router';
 //admin
-let routes=[
+const routes=[
     {
         path:'/',
-        component:require('./components/client/pages/home')
+        component:require('./components/client/pages/home'),
+        name: 'home'
     },
     {
         path:'/blog',
@@ -24,7 +25,10 @@ let routes=[
     },
     {
         path:'/userprofile',
-        component:require('./components/client/pages/userprofile')
+        component:require('./components/client/pages/userprofile'),
+        meta: {
+            requiresAuth: true
+        }
     }
     /*{
     path:'/About',
@@ -32,7 +36,26 @@ let routes=[
 
     } */
 ];
+
+// export const router = new VueRouter({
+//     mode: 'history',
+//     routes
+// });
 export default new VueRouter({
     routes
 });
 
+// routes.beforeEach((to, from, next) => {
+//     if(to.meta.requiresAuth){
+//         const authUser = JSON.parse(window.localStorage.getItem('token'));
+//
+//         if(authUser && authUser.token){
+//             next();
+//         }else{
+//             next({
+//                 name: 'home'
+//             })
+//         }
+//         next()
+//     }
+// });
