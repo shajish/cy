@@ -60032,11 +60032,12 @@ if (false) {
 /* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
+var disposed = false
 var Component = __webpack_require__(1)(
   /* script */
-  null,
+  __webpack_require__(64),
   /* template */
-  null,
+  __webpack_require__(65),
   /* styles */
   null,
   /* scopeId */
@@ -60046,6 +60047,23 @@ var Component = __webpack_require__(1)(
 )
 Component.options.__file = "/var/www/html/cy/resources/assets/js/components/client/pages/auth/register.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
+if (Component.options.functional) {console.error("[vue-loader] register.vue: functional components are not supported with templates, they should use render functions.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-be52cbf6", Component.options)
+  } else {
+    hotAPI.reload("data-v-be52cbf6", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
 
 module.exports = Component.exports
 
@@ -60339,6 +60357,200 @@ if (false) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 54 */,
+/* 55 */,
+/* 56 */,
+/* 57 */,
+/* 58 */,
+/* 59 */,
+/* 60 */,
+/* 61 */,
+/* 62 */,
+/* 63 */,
+/* 64 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    name: 'cy-register',
+
+    mounted: function mounted() {
+        console.log('register component');
+    },
+    data: function data() {
+        return {
+            e1: false,
+            password: 'Password'
+        };
+    }
+});
+
+/***/ }),
+/* 65 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('v-container', {
+    attrs: {
+      "grid-list-xl": "",
+      "text-xs-center": ""
+    }
+  }, [_c('v-layout', {
+    attrs: {
+      "row": "",
+      "wrap": ""
+    }
+  }, [_c('v-flex', {
+    attrs: {
+      "xs10": "",
+      "offset-xs1": ""
+    }
+  }, [_c('v-card', {
+    staticClass: " login-card"
+  }, [_c('v-layout', {
+    attrs: {
+      "xs12": "",
+      "row": "",
+      "wrap": ""
+    }
+  }, [_c('v-flex', {
+    staticClass: "login-info-grid",
+    attrs: {
+      "xs4": "",
+      "d-flex": ""
+    }
+  }, [_c('v-card', {
+    staticClass: "teal elevation-0 login-info"
+  }, [_c('div', {
+    staticClass: "avatar-background"
+  }, [_c('v-avatar', {
+    staticClass: "avatar-circle"
+  }, [_c('img', {
+    attrs: {
+      "src": "https://cdn1.iconfinder.com/data/icons/freeline/32/account_friend_human_man_member_person_profile_user_users-256.png",
+      "alt": "avatar"
+    }
+  })])], 1), _vm._v(" "), _c('h2', {
+    staticStyle: {
+      "color": "white"
+    }
+  }, [_vm._v("\n                                Lets get Started\n                            ")])])], 1), _vm._v(" "), _c('v-flex', {
+    staticClass: "login-info-grid ",
+    attrs: {
+      "xs8": "",
+      "d-flex": ""
+    }
+  }, [_c('v-card', {
+    staticClass: "white elevation-0 login-form-wrapper"
+  }, [_c('v-form', {
+    ref: "form"
+  }, [_c('v-text-field', {
+    attrs: {
+      "label": "E-mail",
+      "required": ""
+    }
+  }), _vm._v(" "), _c('v-text-field', {
+    attrs: {
+      "label": "Username",
+      "required": ""
+    }
+  }), _vm._v(" "), _c('v-text-field', {
+    attrs: {
+      "label": "Full Name",
+      "required": ""
+    }
+  }), _vm._v(" "), _c('v-text-field', {
+    attrs: {
+      "name": "input-10-1",
+      "label": "Enter your password",
+      "hint": "At least 8 characters",
+      "min": "8",
+      "append-icon": _vm.e1 ? 'visibility' : 'visibility_off',
+      "append-icon-cb": function () { return (_vm.e1 = !_vm.e1); },
+      "type": _vm.e1 ? 'password' : 'text',
+      "counter": ""
+    }
+  }), _vm._v(" "), _c('v-btn', {
+    staticClass: "teal pull-right custom-btn"
+  }, [_vm._v("\n                                    Register\n                                ")]), _vm._v(" "), _c('v-btn', {
+    staticClass: "pull-right gray custom-btn"
+  }, [_vm._v("clear")])], 1)], 1)], 1)], 1)], 1)], 1)], 1)], 1)
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-be52cbf6", module.exports)
+  }
+}
 
 /***/ })
 /******/ ]);
