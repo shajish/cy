@@ -246,7 +246,7 @@
 //                  console.log(response.data.token);
 
                   localStorage.setItem('token', response.data.token);
-//                  console.log(localStorage.getItem('token'));
+                  console.log(localStorage.getItem('token'));
                  users.userData =  this.parseJWT(localStorage.getItem('token'));
 
                  users.$router.push('/userprofile');

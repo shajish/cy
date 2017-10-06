@@ -8,6 +8,8 @@
 // Bootstrap
 @import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
-@import "./client/main-style";
-@import "./client/owl.carousel";
-@import "./client/style";
+//Vuetify js
+@import "~vuetify/dist/vuetify.min.css";
+
+//custom scss files
+@import "./custom/home";

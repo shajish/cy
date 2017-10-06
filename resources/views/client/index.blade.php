@@ -3,21 +3,13 @@
     <title>Creative Youth</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet" type="text/css">
 </head>
 <body>
 <div id="app">
-    <client-main></client-main>
+    <cy-app></cy-app>
 </div>
 
+<script src="{{ asset('js/app.js') }}"></script>
 </body>
-<script src="/js/app.js"></script>
-<script src="{{asset('js/uou-tabs.js')}}"></script>
-<script src="{{asset('js/uou-accordions.js')}}"></script>
-{{--<script src="{{asset('js/scripts.js')}}"></script>--}}
-{{--<script src="{{asset('js/owl.carousel.min.js')}}"></script>--}}
-<script src="{{asset('js/jquery.ui.min.js')}}"></script>
-<script src="{{asset('js/jquery-2.1.3.min.js')}}"></script>
-<script src="{{asset('js/gmap3.min.js')}}"></script>
-{{--<script src="{{asset('js/bootstrap.min.js')}}"></script>--}}
-
 </html>

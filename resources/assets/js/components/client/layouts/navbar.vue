@@ -1,50 +1,35 @@
 <template>
-
-    <div><!-- Top Toolbar -->
-
-        <!-- end toolbar -->
-
-        <div class="box-shadow-for-ui">
-            <div class="uou-block-2b">
-                <div class="container"> <a href="#" class="logo"><img src="" alt=""></a> <a href="#" class="mobile-sidebar-button mobile-sidebar-toggle"><span></span></a>
-                    <nav class="nav">
-                        <ul class="sf-menu">
-                            <li><router-link to="/">Home</router-link></li>
-                            <li><router-link to="/professionals">Professionals</router-link></li>
-<!--
-                            <li> <router-link to="/pages"></router-link>Pages</li>
--->
-                            <!--<li> <router-link to="/event">Event</router-link></li>-->
-                            <li> <router-link to="/blog">Blog</router-link></li>
-                                <ul>
-                                    <li><a href="profile_company.html">Profile Company</a></li>
-                                    <li><a href="profile_company-no-tabs.html">Profile Company No Tabs</a></li>
-                                    <li><a href="user-dashboard(connections)(hotkeys-disabled).html">User Dashboard 1</a></li>
-                                    <li><a href="user-dashboard(connections)(hotkeys-enabled).html">User Dashboard 2</a></li>
-                                    <li><a href="user-dashboard(followers).html">User Dashboard 3</a></li>
-                                    <li><a href="user-dashboard(following).html">User Dashboard 4</a></li>
-                                    <li><a href="blog-post.html">Blog Post</a></li>
-                                    <li class="active"><a href="blog.html">Blog</a></li>
-
-                                </ul>
-                            <li> <router-link to="/userprofile">User Profile</router-link></li>
-                            <li><router-link to="/news"> News</router-link></li>
-                            <li><router-link to="/event">Events</router-link></li>
-                        </ul>
-                    </nav>
-
-                </div>
-            </div>
-            <!-- end .uou-block-2b -->
-        </div>
+    <div>
+        <v-app>
+            <v-toolbar dark class="primary">
+                <!--<v-toolbar-side-icon></v-toolbar-side-icon>-->
+                <v-toolbar-title class="white--text">CHAUTARO</v-toolbar-title>
+                <v-spacer></v-spacer>
+                <v-btn icon>
+                    <v-icon>search</v-icon>
+                </v-btn>
+                <v-btn icon>
+                    <v-icon>apps</v-icon>
+                </v-btn>
+                <v-btn icon>
+                    <v-icon>refresh</v-icon>
+                </v-btn>
+                <v-btn icon>
+                    <v-icon>more_vert</v-icon>
+                </v-btn>
+            </v-toolbar>
+        </v-app>
     </div>
-
 </template>
 
 <script>
-    export default {
+
+    export default{
+        name: 'cy-navbar',
+
         mounted() {
-//            console.log('Component mounted.')
+            console.log('this is the navbar component');
         }
     }
+
 </script>

@@ -3,29 +3,29 @@ import VueRouter from 'vue-router';
 const routes=[
     {
         path:'/',
-        component:require('./components/client/pages/home'),
+        component:require('./components/client/pages-bak/home'),
         name: 'home'
     },
     {
         path:'/blog',
-        component:require('./components/client/pages/blog')
+        component:require('./components/client/pages-bak/blog')
     },
     {
         path:'/event',
-        component:require('./components/client/pages/event')
+        component:require('./components/client/pages-bak/event')
     },
 
     {
         path:'/professionals',
-        component:require('./components/client/pages/professionals')
+        component:require('./components/client/pages-bak/professionals')
     },
     {
         path:'/news',
-        component:require('./components/client/pages/news')
+        component:require('./components/client/pages-bak/news')
     },
     {
         path:'/userprofile',
-        component:require('./components/client/pages/userprofile'),
+        component:require('./components/client/pages-bak/userprofile'),
         meta: {
             requiresAuth: true
         }
