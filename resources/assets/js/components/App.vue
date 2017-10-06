@@ -1,9 +1,7 @@
 <template>
     <v-app>
         <cy-navbar></cy-navbar>
-            <div>
-                this is the body of a cy application
-            </div>
+            <router-view></router-view>
         <cy-footer></cy-footer>
     </v-app>
 </template>

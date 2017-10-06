@@ -1,61 +1,45 @@
 import VueRouter from 'vue-router';
+import CyLogin from './components/client/pages/auth/login.vue'
+import CyRegister from './components/client/pages/auth/register.vue'
+
+
 //admin
 const routes=[
     {
-        path:'/',
-        component:require('./components/client/pages-bak/home'),
-        name: 'home'
+        path:'/login',
+        component: CyLogin
     },
     {
-        path:'/blog',
-        component:require('./components/client/pages-bak/blog')
-    },
-    {
-        path:'/event',
-        component:require('./components/client/pages-bak/event')
-    },
-
-    {
-        path:'/professionals',
-        component:require('./components/client/pages-bak/professionals')
-    },
-    {
-        path:'/news',
-        component:require('./components/client/pages-bak/news')
-    },
-    {
-        path:'/userprofile',
-        component:require('./components/client/pages-bak/userprofile'),
-        meta: {
-            requiresAuth: true
-        }
+        path:'/register',
+        component: CyRegister
     }
-    /*{
-    path:'/About',
-    component:require('./components/')
-
-    } */
+    // {
+    //     path:'/blog',
+    //     component:require('./components/client/pages-bak/blog')
+    // },
+    // {
+    //     path:'/event',
+    //     component:require('./components/client/pages-bak/event')
+    // },
+    //
+    // {
+    //     path:'/professionals',
+    //     component:require('./components/client/pages-bak/professionals')
+    // },
+    // {
+    //     path:'/news',
+    //     component:require('./components/client/pages-bak/news')
+    // },
+    // {
+    //     path:'/userprofile',
+    //     component:require('./components/client/pages-bak/userprofile'),
+    //     meta: {
+    //         requiresAuth: true
+    //     }
+    // }
 ];
 
-// export const router = new VueRouter({
-//     mode: 'history',
-//     routes
-// });
 export default new VueRouter({
     routes
 });
 
-// routes.beforeEach((to, from, next) => {
-//     if(to.meta.requiresAuth){
-//         const authUser = JSON.parse(window.localStorage.getItem('token'));
-//
-//         if(authUser && authUser.token){
-//             next();
-//         }else{
-//             next({
-//                 name: 'home'
-//             })
-//         }
-//         next()
-//     }
-// });
