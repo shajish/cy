@@ -1,10 +1,15 @@
 import VueRouter from 'vue-router';
+import CyHome from './components/client/pages/home.vue'
 import CyLogin from './components/client/pages/auth/login.vue'
 import CyRegister from './components/client/pages/auth/register.vue'
 
 
 //admin
 const routes=[
+    {
+      path: '/',
+      component: CyHome
+    },
     {
         path:'/login',
         component: CyLogin
