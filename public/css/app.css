@@ -8354,6 +8354,13 @@ button.close {
   background-color: #00cc99;
 }
 
+.toolbar-wrapper .nav-item {
+  padding: 0 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .home-about-wrapper {
   background-color: #fff;
 }
@@ -8452,7 +8459,7 @@ button.close {
 
 .login-card .login-info-grid .login-info {
   padding: 20px;
-  background-color: #ebebeb;
+  background-color: #00bfa5;
 }
 
 .login-card .login-info-grid .login-info .avatar-background {

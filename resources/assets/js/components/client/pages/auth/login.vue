@@ -11,7 +11,6 @@
                                 <div class="avatar-background">
                                     <v-avatar class="avatar-circle">
                                         <img src="https://cdn1.iconfinder.com/data/icons/freeline/32/account_friend_human_man_member_person_profile_user_users-256.png" alt="avatar">
-
                                     </v-avatar>
                                 </div>
                                 <h2 >

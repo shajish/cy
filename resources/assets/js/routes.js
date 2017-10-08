@@ -2,6 +2,7 @@ import VueRouter from 'vue-router';
 import CyHome from './components/client/pages/home.vue'
 import CyLogin from './components/client/pages/auth/login.vue'
 import CyRegister from './components/client/pages/auth/register.vue'
+import CyDashboard from './components/client/pages/landing/dashboard.vue'
 
 
 //admin
@@ -17,6 +18,10 @@ const routes=[
     {
         path:'/register',
         component: CyRegister
+    },
+    {
+        path:'/dashboard',
+        component: CyDashboard
     }
     // {
     //     path:'/blog',
