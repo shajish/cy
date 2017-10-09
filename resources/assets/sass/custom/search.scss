@@ -1,0 +1,51 @@
+//css for search user of community
+.user-search-wrapper{
+  padding: 20px 0;
+  background-color: #fff;
+}
+
+
+//css for user list panel
+.user-list-wrapper{
+  background-color: #ebebeb;
+
+  .user-search-filter{
+    border-right: 4px solid #d0d0d0;
+
+    .user-search-by{
+      margin-top: 20px;
+
+      h5{
+        font-weight: bold;
+      }
+    }
+  }
+
+  .user-list-card-wrapper{
+    padding: 0 20px;
+
+    .user-list-card-title{
+      padding-left: 0;
+
+      h4{
+        margin-top: 0;
+        font-weight: bold;
+        color: #555555;
+      }
+    }
+
+    .user-list-card{
+      padding: 10px;
+      background-color: #fff;
+      min-height: 200px;
+      border-radius: 3px;
+      box-shadow: 0 3px 6px #888888;
+
+      img{
+        margin-top: 20px;
+        height: 65px;
+        width: 65px;
+      }
+    }
+  }
+}

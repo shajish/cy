@@ -8492,3 +8492,53 @@ button.close {
   font-weight: bold;
 }
 
+.user-search-wrapper {
+  padding: 20px 0;
+  background-color: #fff;
+}
+
+.user-list-wrapper {
+  background-color: #ebebeb;
+}
+
+.user-list-wrapper .user-search-filter {
+  border-right: 4px solid #d0d0d0;
+}
+
+.user-list-wrapper .user-search-filter .user-search-by {
+  margin-top: 20px;
+}
+
+.user-list-wrapper .user-search-filter .user-search-by h5 {
+  font-weight: bold;
+}
+
+.user-list-wrapper .user-list-card-wrapper {
+  padding: 0 20px;
+}
+
+.user-list-wrapper .user-list-card-wrapper .user-list-card-title {
+  padding-left: 0;
+}
+
+.user-list-wrapper .user-list-card-wrapper .user-list-card-title h4 {
+  margin-top: 0;
+  font-weight: bold;
+  color: #555555;
+}
+
+.user-list-wrapper .user-list-card-wrapper .user-list-card {
+  padding: 10px;
+  background-color: #fff;
+  min-height: 200px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 3px 6px #888888;
+          box-shadow: 0 3px 6px #888888;
+}
+
+.user-list-wrapper .user-list-card-wrapper .user-list-card img {
+  margin-top: 20px;
+  height: 65px;
+  width: 65px;
+}
+

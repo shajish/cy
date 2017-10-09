@@ -3,6 +3,7 @@ import CyHome from './components/client/pages/home.vue'
 import CyLogin from './components/client/pages/auth/login.vue'
 import CyRegister from './components/client/pages/auth/register.vue'
 import CyDashboard from './components/client/pages/landing/dashboard.vue'
+import ChSearchProfession from './components/client/pages/community/user-profession/search-professions.vue'
 
 
 //admin
@@ -22,6 +23,10 @@ const routes=[
     {
         path:'/dashboard',
         component: CyDashboard
+    },
+    {
+        path:'/search/community/users',
+        component: ChSearchProfession
     }
     // {
     //     path:'/blog',
